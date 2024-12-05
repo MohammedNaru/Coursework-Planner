@@ -1,7 +1,7 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
   - name: CYF
-url: mailto:contact@codeyourfuture.io
+    url: contact@codeyourfuture.io
     about: Please report serious issues here.
   - name: Join CYF
     url: https://codeyourfuture.io/volunteers/
