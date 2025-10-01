@@ -3,25 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wireframe</title>
+  <meta name="description" content="An educational page explaining README files, wireframes, and Git branches with semantic HTML structure.">
+  <title>Git & Web Development Basics</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      background-color: #ffffff; /* high contrast */
+      color: #111111; /* high contrast text */
     }
 
     header {
       text-align: center;
       padding: 20px;
-      background-color: #f4f4f4;
+      background-color: #2f2f2f; /* dark grey */
+      color: #ffffff; /* white text for contrast */
     }
 
     main {
       padding: 20px;
     }
 
-    .articles {
+    #articles {
       display: flex;
       justify-content: space-between;
       gap: 20px;
@@ -31,84 +35,64 @@
     article {
       flex: 1;
       max-width: 300px;
-      border: 1px solid #ddd;
+      border: 1px solid #444444;
       padding: 15px;
       text-align: center;
-      background-color: #fafafa;
+      background-color: #f0f0f0; /* lighter grey */
       border-radius: 5px;
-    }
-
-    article svg {
-      width: 100%;
-      height: auto;
-      margin-bottom: 10px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 10px;
-      background-color: #f4f4f4;
-      margin-top: 20px;
+      color: #111111;
     }
 
     a {
       display: inline-block;
       margin-top: 10px;
-      color: #0077cc;
+      color: #0055aa; /* darker blue for contrast */
       text-decoration: none;
     }
 
     a:hover {
       text-decoration: underline;
     }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #2f2f2f; /* same as header */
+      color: #ffffff;
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Wireframe</h1>
-    <p>Learn about README files, wireframes, and Git branches.</p>
+    <h1>Git & Web Development: <br> The Basics</h1>
+    <p>Here you can learn about README files, wireframes, and Git branches with high contrast accessibility.</p>
   </header>
 
   <main>
-    <section class="articles">
+    <section id="articles">
       <article>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 90" role="presentation">
-          <rect width="160" height="90" fill="#eee"/>
-          <circle cx="120" cy="25" r="15" fill="hsl(0deg 83% 60% / 95%)"/>
-          <path d="M25 90 L80 30 L160 90 Z" fill="darkslategrey"/>
-          <path d="M0 90 L50 45 L100 90 Z" fill="slategrey"/>
-        </svg>
-        <h2>What is a README file?</h2>
-        <p>A README file explains a project’s purpose, setup instructions, and how to contribute. It helps others understand your project quickly.</p>
-        <a href="https://www.makeareadme.com/" target="_blank">Learn more</a>
+        <h2>Understanding README Files</h2>
+        <p>A README file is a crucial part of any project, providing an overview, setup instructions, and important documentation for developers and users.</p>
+        <a href="https://www.makeareadme.com/" role="button" target="_blank" rel="noopener">Learn more about README files</a>
       </article>
 
       <article>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 90" role="presentation">
-          <rect width="160" height="90" fill="#eee"/>
-          <circle cx="40" cy="45" r="15" fill="hsl(200deg 70% 60% / 95%)"/>
-          <path d="M0 90 L80 30 L160 90 Z" fill="slategrey"/>
-        </svg>
-        <h2>What is a wireframe?</h2>
-        <p>A wireframe is a simple diagram showing the layout and structure of a webpage or app. It helps plan placement of elements before coding.</p>
-        <a href="https://www.interaction-design.org/literature/topics/wireframing" target="_blank">Learn more</a>
+        <h2>The Purpose of Wireframes</h2>
+        <p>Wireframes outline the structure and layout of a webpage before coding begins, ensuring design clarity and usability.</p>
+        <a href="https://www.interaction-design.org/literature/topics/wireframing" role="button" target="_blank" rel="noopener">Learn more about Wireframes</a>
       </article>
 
       <article>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 90" role="presentation">
-          <rect width="160" height="90" fill="#eee"/>
-          <circle cx="80" cy="50" r="15" fill="hsl(120deg 60% 60% / 95%)"/>
-          <path d="M0 90 L50 45 L100 90 Z" fill="darkslategrey"/>
-        </svg>
-        <h2>What is a Git branch?</h2>
-        <p>A branch in Git allows you to work on a separate copy of the code without affecting the main project. You can develop features or fix bugs safely.</p>
-        <a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell" target="_blank">Learn more</a>
+        <h2>Branches in Git</h2>
+        <p>Branches allow developers to work on features or fixes independently from the main project, making version control safer and more organized.</p>
+        <a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell" role="button" target="_blank" rel="noopener">Learn more about Git branches</a>
       </article>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Ali Naru</p>
+    <p>&copy; 2025 Git & Web Dev Learning.</p>
   </footer>
 </body>
 </html>
